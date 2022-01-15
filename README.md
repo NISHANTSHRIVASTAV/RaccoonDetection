@@ -45,13 +45,13 @@ $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd
 
 ## REST APIs
 
-### Detect Reaccoon (Single Input Image)
+### Detect Raccoon (Single Input Image)
 
 #### Request
 
 `POST /detect`
 
-    curl --request POST --url http://localhost:5000/detect --header 'nmsThreshold: 0.5' --header 'netType: mb1-ssd' --header 'deviceType: cpu' --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001' --header 'File-Type: jpg' --form 'file=@input_image.jpg' 
+    curl --request POST --url http://localhost:5000/detect --header 'nmsThreshold: 0.5' --header 'netType: mb1-ssd' --header 'deviceType: cpu' --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001' --form 'file=@input_image.jpg' 
 
 #### Response
 
@@ -85,13 +85,13 @@ $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd
 }
 ```
 
-### Detect Reaccoon (Batch Input on Test Images)
+### Detect Raccoon (Batch Input on Test Images)
 
 #### Request
 
 `POST /detect_batch`
 
-    curl --request POST --url http://localhost:5000/detect_batch` --header 'nmsThreshold: 0.5' --header 'netType: mb1-ssd' --header 'deviceType: cpu' --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001' --header 'File-Type: jpg' --form 'files=@input_images.jpg' 
+    curl --request POST --url http://localhost:5000/detect_batch` --header 'nmsThreshold: 0.5' --header 'netType: mb1-ssd' --header 'deviceType: cpu' --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001' --form 'files=@input_images.jpg' 
 
 #### Response
 
@@ -463,5 +463,5 @@ $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd
 
 #### Response
 
-![](results/ae49f07e-7611-11ec-b929-000c29b400a7.jpg.jpg)
+![](results/ae49f07e-7611-11ec-b929-000c29b400a7.jpg)
 
