@@ -453,7 +453,7 @@ $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd
 }
 ```
 
-### Get Recognized Image
+### Get Recognized Raccoon Image
 
 #### Request
 
