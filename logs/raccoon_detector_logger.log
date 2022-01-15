@@ -1,0 +1,1044 @@
+14-Jan-22 17:08:57 - Raccoon Detector Inference Engine
+14-Jan-22 17:08:57 - Caught an exception in main function
+Traceback (most recent call last):
+  File "RaccoonDetection.py", line 116, in <module>
+    detector = RaccoonDetection('mb1-ssd', MODEL_FILE_PATH, LABEL_FILE_PATH, RUNTIME_DEVICE_TYPE)
+NameError: name 'RaccoonDetection' is not defined
+14-Jan-22 17:09:18 - Raccoon Detector Inference Engine
+14-Jan-22 17:09:18 - Load Image seconds 0.0
+14-Jan-22 17:09:19 - Prediction seconds 0.5
+14-Jan-22 17:10:30 - Raccoon Detector Inference Engine
+14-Jan-22 17:10:30 - Load Image seconds 0.0
+14-Jan-22 17:10:30 - Prediction seconds 0.21875214576721191
+14-Jan-22 17:11:10 - Raccoon Detector Inference Engine
+14-Jan-22 17:11:10 - Load Image seconds 0.0
+14-Jan-22 17:11:11 - Prediction seconds 0.2199995517730713
+14-Jan-22 17:12:53 - Raccoon Detector Inference Engine
+14-Jan-22 17:12:53 - Load Image seconds 0.01000070571899414
+14-Jan-22 17:12:53 - Prediction seconds 0.21000003814697266
+14-Jan-22 17:13:52 - Raccoon Detector Inference Engine
+14-Jan-22 17:13:52 - Load Image seconds 0.0
+14-Jan-22 17:13:52 - Prediction seconds 0.2199993133544922
+14-Jan-22 17:22:24 - Raccoon Detector Inference Engine
+14-Jan-22 17:22:24 - Load Image seconds 0.0
+14-Jan-22 17:22:24 - Prediction seconds 0.220001220703125
+14-Jan-22 17:25:40 - Raccoon Detector Inference Engine
+14-Jan-22 17:25:40 - Load Image seconds 0.0
+14-Jan-22 17:25:40 - Prediction seconds 0.20999431610107422
+14-Jan-22 17:31:55 - Raccoon Detector Inference Engine
+14-Jan-22 17:31:55 - Load Image seconds 0.0
+14-Jan-22 17:31:55 - Prediction seconds 0.2200009822845459
+14-Jan-22 17:32:12 - Raccoon Detector Inference Engine
+14-Jan-22 17:32:12 - Load Image seconds 0.0
+14-Jan-22 17:32:12 - Prediction seconds 0.21999621391296387
+14-Jan-22 17:32:25 - Raccoon Detector Inference Engine
+14-Jan-22 17:32:25 - Caught an exception in RaccoonDetector constructor
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 42, in __init__
+    logging.info(f"Init from base net {args.base_net}")
+NameError: name 'args' is not defined
+14-Jan-22 17:32:25 -  * Restarting with stat
+14-Jan-22 17:32:26 - Raccoon Detector Inference Engine
+14-Jan-22 17:32:26 - Caught an exception in RaccoonDetector constructor
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 42, in __init__
+    logging.info(f"Init from base net {args.base_net}")
+NameError: name 'args' is not defined
+14-Jan-22 17:32:26 -  * Debugger is active!
+14-Jan-22 17:32:26 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:32:27 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:32:27 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:33:04 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+14-Jan-22 17:33:04 -  * Restarting with stat
+14-Jan-22 17:33:06 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:06 - Caught an exception in RaccoonDetector constructor
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 44, in __init__
+    self.net.load(MODEL_FILE_PATH)
+AttributeError: 'RaccoonDetector' object has no attribute 'net'
+14-Jan-22 17:33:06 -  * Debugger is active!
+14-Jan-22 17:33:06 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:33:07 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:33:07 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:33:16 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:16 - Caught an exception in RaccoonDetector constructor
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 44, in __init__
+    self.net.load(MODEL_FILE_PATH)
+AttributeError: 'RaccoonDetector' object has no attribute 'net'
+14-Jan-22 17:33:16 -  * Restarting with stat
+14-Jan-22 17:33:17 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:17 - Caught an exception in RaccoonDetector constructor
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 44, in __init__
+    self.net.load(MODEL_FILE_PATH)
+AttributeError: 'RaccoonDetector' object has no attribute 'net'
+14-Jan-22 17:33:17 -  * Debugger is active!
+14-Jan-22 17:33:17 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:33:18 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:33:18 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:33:38 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+14-Jan-22 17:33:38 -  * Restarting with stat
+14-Jan-22 17:33:40 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:41 -  * Debugger is active!
+14-Jan-22 17:33:41 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:33:42 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:33:42 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:33:48 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:48 -  * Restarting with stat
+14-Jan-22 17:33:50 - Raccoon Detector Inference Engine
+14-Jan-22 17:33:50 -  * Debugger is active!
+14-Jan-22 17:33:50 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:33:51 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:33:51 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:36:12 - 10.15.12.10 - - [14/Jan/2022 17:36:12] "GET /ping HTTP/1.1" 200 -
+14-Jan-22 17:38:01 - 10.15.12.10 - - [14/Jan/2022 17:38:01] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+14-Jan-22 17:39:08 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+14-Jan-22 17:39:10 -  * Restarting with stat
+14-Jan-22 17:40:04 - Raccoon Detector Inference Engine
+14-Jan-22 17:40:04 -  * Restarting with stat
+14-Jan-22 17:40:05 - Raccoon Detector Inference Engine
+14-Jan-22 17:40:05 -  * Debugger is active!
+14-Jan-22 17:40:05 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:40:06 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:40:06 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:40:12 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 66, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+14-Jan-22 17:40:12 - 10.15.12.10 - - [14/Jan/2022 17:40:12] "POST /detect HTTP/1.1" 200 -
+14-Jan-22 17:41:18 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+14-Jan-22 17:41:18 -  * Restarting with stat
+14-Jan-22 17:41:20 - Raccoon Detector Inference Engine
+14-Jan-22 17:41:20 -  * Debugger is active!
+14-Jan-22 17:41:20 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:41:21 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:41:21 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:41:24 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 66, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+14-Jan-22 17:41:24 - 10.15.12.10 - - [14/Jan/2022 17:41:24] "POST /detect HTTP/1.1" 200 -
+14-Jan-22 17:42:00 - Raccoon Detector Inference Engine
+14-Jan-22 17:42:00 -  * Restarting with stat
+14-Jan-22 17:42:01 - Raccoon Detector Inference Engine
+14-Jan-22 17:42:01 -  * Debugger is active!
+14-Jan-22 17:42:01 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:42:02 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:42:02 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:42:04 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 66, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+14-Jan-22 17:42:04 - 10.15.12.10 - - [14/Jan/2022 17:42:04] "POST /detect HTTP/1.1" 200 -
+14-Jan-22 17:42:39 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+14-Jan-22 17:42:39 -  * Restarting with stat
+14-Jan-22 17:42:40 - Raccoon Detector Inference Engine
+14-Jan-22 17:42:40 -  * Debugger is active!
+14-Jan-22 17:42:40 -  * Debugger PIN: 967-912-002
+14-Jan-22 17:42:41 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Jan-22 17:42:41 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+14-Jan-22 17:42:47 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 66, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+14-Jan-22 17:42:47 - 10.15.12.10 - - [14/Jan/2022 17:42:47] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:21:54 - 10.15.12.10 - - [15/Jan/2022 18:21:54] "GET /ping HTTP/1.1" 200 -
+15-Jan-22 18:22:55 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 18:22:55 -  * Restarting with stat
+15-Jan-22 18:23:00 - Raccoon Detector Inference Engine
+15-Jan-22 18:23:00 -  * Debugger is active!
+15-Jan-22 18:23:00 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:23:01 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:23:01 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:23:28 - Raccoon Detector Inference Engine
+15-Jan-22 18:23:28 -  * Restarting with stat
+15-Jan-22 18:23:29 - Raccoon Detector Inference Engine
+15-Jan-22 18:23:29 -  * Debugger is active!
+15-Jan-22 18:23:29 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:23:30 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:23:30 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:23:38 - 10.15.12.10 - - [15/Jan/2022 18:23:38] "GET /ping HTTP/1.1" 200 -
+15-Jan-22 18:26:15 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 66, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+15-Jan-22 18:26:15 - 10.15.12.10 - - [15/Jan/2022 18:26:15] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:27:07 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:27:07 -  * Restarting with stat
+15-Jan-22 18:27:08 - Raccoon Detector Inference Engine
+15-Jan-22 18:27:08 -  * Debugger is active!
+15-Jan-22 18:27:08 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:27:09 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:27:09 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:27:15 - Raccoon Detector Inference Engine
+15-Jan-22 18:27:15 -  * Restarting with stat
+15-Jan-22 18:27:16 - Raccoon Detector Inference Engine
+15-Jan-22 18:27:17 -  * Debugger is active!
+15-Jan-22 18:27:17 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:27:17 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:27:17 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:27:19 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 67, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+15-Jan-22 18:27:19 - 10.15.12.10 - - [15/Jan/2022 18:27:19] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:27:35 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:27:35 -  * Restarting with stat
+15-Jan-22 18:27:36 - Raccoon Detector Inference Engine
+15-Jan-22 18:27:36 -  * Debugger is active!
+15-Jan-22 18:27:36 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:27:37 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:27:37 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:27:39 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 67, in detect_objects
+    orig_image = cv2.imread(self.image)
+TypeError: Can't convert object of type 'bytes' to 'str' for 'filename'
+15-Jan-22 18:27:39 - 10.15.12.10 - - [15/Jan/2022 18:27:39] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:39:28 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:39:29 -  * Restarting with stat
+15-Jan-22 18:39:30 - Raccoon Detector Inference Engine
+15-Jan-22 18:39:30 -  * Debugger is active!
+15-Jan-22 18:39:30 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:39:31 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:39:31 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:39:42 - Raccoon Detector Inference Engine
+15-Jan-22 18:39:42 -  * Restarting with stat
+15-Jan-22 18:39:44 - Raccoon Detector Inference Engine
+15-Jan-22 18:39:44 -  * Debugger is active!
+15-Jan-22 18:39:44 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:39:45 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:39:45 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:39:48 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 71, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+NameError: name 'numpy' is not defined
+15-Jan-22 18:39:48 - 10.15.12.10 - - [15/Jan/2022 18:39:48] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:40:10 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:40:10 -  * Restarting with stat
+15-Jan-22 18:40:12 - Raccoon Detector Inference Engine
+15-Jan-22 18:40:12 -  * Debugger is active!
+15-Jan-22 18:40:12 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:40:13 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:40:13 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:40:21 - Raccoon Detector Inference Engine
+15-Jan-22 18:40:21 -  * Restarting with stat
+15-Jan-22 18:40:22 - Raccoon Detector Inference Engine
+15-Jan-22 18:40:22 -  * Debugger is active!
+15-Jan-22 18:40:22 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:40:23 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:40:23 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:40:26 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 74, in detect_objects
+    img = cv2.imdecode(npimg, cv2.CV_LOAD_IMAGE_UNCHANGED)
+AttributeError: module 'cv2.cv2' has no attribute 'CV_LOAD_IMAGE_UNCHANGED'
+15-Jan-22 18:40:26 - 10.15.12.10 - - [15/Jan/2022 18:40:26] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:47:39 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:47:39 -  * Restarting with stat
+15-Jan-22 18:47:40 - Raccoon Detector Inference Engine
+15-Jan-22 18:47:41 -  * Debugger is active!
+15-Jan-22 18:47:41 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:47:41 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:47:41 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:47:46 - Load Image seconds 0.07006549835205078
+15-Jan-22 18:47:46 - Prediction seconds 0.27991652488708496
+15-Jan-22 18:47:46 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 105, in detect_objects
+    cv2.rectangle(orig_image, (c1, c2), (c3, c4), (255, 255, 0), 4)
+NameError: name 'orig_image' is not defined
+15-Jan-22 18:47:46 - 10.15.12.10 - - [15/Jan/2022 18:47:46] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:48:35 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:48:35 -  * Restarting with stat
+15-Jan-22 18:48:36 - Raccoon Detector Inference Engine
+15-Jan-22 18:48:36 -  * Debugger is active!
+15-Jan-22 18:48:36 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:48:37 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:48:37 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:48:43 - Load Image seconds 0.010007143020629883
+15-Jan-22 18:48:43 - Prediction seconds 0.2699778079986572
+15-Jan-22 18:48:43 - 10.15.12.10 - - [15/Jan/2022 18:48:43] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:49:46 - Load Image seconds 0.0
+15-Jan-22 18:49:46 - Prediction seconds 0.2598757743835449
+15-Jan-22 18:49:46 - 10.15.12.10 - - [15/Jan/2022 18:49:46] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:52:52 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 18:52:52 -  * Restarting with stat
+15-Jan-22 18:52:54 - Raccoon Detector Inference Engine
+15-Jan-22 18:52:54 -  * Debugger is active!
+15-Jan-22 18:52:54 -  * Debugger PIN: 967-912-002
+15-Jan-22 18:52:55 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 18:52:55 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 18:53:00 - Load Image seconds 0.0
+15-Jan-22 18:53:01 - Prediction seconds 0.2699127197265625
+15-Jan-22 18:53:01 - 10.15.12.10 - - [15/Jan/2022 18:53:01] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 18:55:26 - Load Image seconds 0.0
+15-Jan-22 18:55:26 - Prediction seconds 0.2299818992614746
+15-Jan-22 18:55:26 - 10.15.12.10 - - [15/Jan/2022 18:55:26] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 19:00:52 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:00:52 -  * Restarting with stat
+15-Jan-22 19:00:53 - Raccoon Detector Inference Engine
+15-Jan-22 19:01:12 - Raccoon Detector Inference Engine
+15-Jan-22 19:01:30 - Raccoon Detector Inference Engine
+15-Jan-22 19:01:30 -  * Restarting with stat
+15-Jan-22 19:01:32 - Raccoon Detector Inference Engine
+15-Jan-22 19:01:32 -  * Debugger is active!
+15-Jan-22 19:01:32 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:01:33 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:01:33 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:02:41 - 10.15.12.10 - - [15/Jan/2022 19:02:41] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:03:07 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:03:07 -  * Restarting with stat
+15-Jan-22 19:03:09 - Raccoon Detector Inference Engine
+15-Jan-22 19:03:09 -  * Debugger is active!
+15-Jan-22 19:03:09 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:03:10 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:03:10 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:03:13 - 10.15.12.10 - - [15/Jan/2022 19:03:13] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:06:49 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:06:49 -  * Restarting with stat
+15-Jan-22 19:06:50 - Raccoon Detector Inference Engine
+15-Jan-22 19:06:50 -  * Debugger is active!
+15-Jan-22 19:06:50 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:06:51 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:06:51 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:07:01 - Raccoon Detector Inference Engine
+15-Jan-22 19:07:01 -  * Restarting with stat
+15-Jan-22 19:07:02 - Raccoon Detector Inference Engine
+15-Jan-22 19:07:02 -  * Debugger is active!
+15-Jan-22 19:07:02 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:07:03 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:07:03 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:07:07 - 10.15.12.10 - - [15/Jan/2022 19:07:07] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:07:46 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:07:46 - 10.15.12.10 - - [15/Jan/2022 19:07:46] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:08:17 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:08:17 -  * Restarting with stat
+15-Jan-22 19:08:18 - Raccoon Detector Inference Engine
+15-Jan-22 19:08:18 -  * Debugger is active!
+15-Jan-22 19:08:18 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:08:19 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:08:19 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:08:22 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:08:22 - 10.15.12.10 - - [15/Jan/2022 19:08:22] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:09:24 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:09:24 -  * Restarting with stat
+15-Jan-22 19:09:25 - Raccoon Detector Inference Engine
+15-Jan-22 19:09:25 -  * Debugger is active!
+15-Jan-22 19:09:25 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:09:26 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:09:26 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:09:32 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:09:32 - 10.15.12.10 - - [15/Jan/2022 19:09:32] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:10:58 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:10:58 -  * Restarting with stat
+15-Jan-22 19:11:00 - Raccoon Detector Inference Engine
+15-Jan-22 19:11:00 -  * Debugger is active!
+15-Jan-22 19:11:00 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:11:01 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:11:01 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - Caught an exception in detect_objects
+Traceback (most recent call last):
+  File "C:\nishant_work\Raccon_Detection\RaccoonDetection.py", line 72, in detect_objects
+    npimg = numpy.fromstring(self.image, numpy.uint8)
+TypeError: a bytes-like object is required, not 'FileStorage'
+15-Jan-22 19:11:11 - 10.15.12.10 - - [15/Jan/2022 19:11:11] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:12:15 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:12:15 -  * Restarting with stat
+15-Jan-22 19:12:17 - Raccoon Detector Inference Engine
+15-Jan-22 19:12:17 -  * Debugger is active!
+15-Jan-22 19:12:17 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:12:18 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:12:18 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:12:22 - Load Image seconds 0.010006904602050781
+15-Jan-22 19:12:22 - Prediction seconds 0.249983549118042
+15-Jan-22 19:12:22 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.1600031852722168
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.15006661415100098
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.15000104904174805
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.15003466606140137
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.20000219345092773
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:23 - Prediction seconds 0.15000104904174805
+15-Jan-22 19:12:23 - Load Image seconds 0.0
+15-Jan-22 19:12:24 - Prediction seconds 0.15999937057495117
+15-Jan-22 19:12:24 - Load Image seconds 0.00999903678894043
+15-Jan-22 19:12:24 - Prediction seconds 0.15000367164611816
+15-Jan-22 19:12:24 - Load Image seconds 0.0
+15-Jan-22 19:12:24 - Prediction seconds 0.15000081062316895
+15-Jan-22 19:12:24 - Load Image seconds 0.0
+15-Jan-22 19:12:24 - Prediction seconds 0.16000056266784668
+15-Jan-22 19:12:24 - Load Image seconds 0.0
+15-Jan-22 19:12:24 - Prediction seconds 0.19002747535705566
+15-Jan-22 19:12:24 - Load Image seconds 0.009975671768188477
+15-Jan-22 19:12:24 - Prediction seconds 0.15000057220458984
+15-Jan-22 19:12:24 - Load Image seconds 0.0
+15-Jan-22 19:12:25 - Prediction seconds 0.15000343322753906
+15-Jan-22 19:12:25 - Load Image seconds 0.0
+15-Jan-22 19:12:25 - Prediction seconds 0.15999889373779297
+15-Jan-22 19:12:25 - Load Image seconds 0.009999275207519531
+15-Jan-22 19:12:25 - Prediction seconds 0.1500098705291748
+15-Jan-22 19:12:25 - Load Image seconds 0.00999760627746582
+15-Jan-22 19:12:25 - Prediction seconds 0.14000272750854492
+15-Jan-22 19:12:25 - 10.15.12.10 - - [15/Jan/2022 19:12:25] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:13:13 - Raccoon Detector Inference Engine
+15-Jan-22 19:13:13 -  * Restarting with stat
+15-Jan-22 19:13:14 - Raccoon Detector Inference Engine
+15-Jan-22 19:13:14 -  * Debugger is active!
+15-Jan-22 19:13:14 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:13:15 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:13:15 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:13:18 - Load Image seconds 0.009996175765991211
+15-Jan-22 19:13:18 - Prediction seconds 0.2499833106994629
+15-Jan-22 19:13:18 - Load Image seconds 0.0
+15-Jan-22 19:13:18 - Prediction seconds 0.15000557899475098
+15-Jan-22 19:13:18 - Load Image seconds 0.0
+15-Jan-22 19:13:19 - Prediction seconds 0.15000176429748535
+15-Jan-22 19:13:19 - Load Image seconds 0.0
+15-Jan-22 19:13:19 - Prediction seconds 0.19000244140625
+15-Jan-22 19:13:19 - Load Image seconds 0.009997844696044922
+15-Jan-22 19:13:19 - Prediction seconds 0.15000271797180176
+15-Jan-22 19:13:19 - Load Image seconds 0.0
+15-Jan-22 19:13:19 - Prediction seconds 0.15000152587890625
+15-Jan-22 19:13:19 - Load Image seconds 0.0
+15-Jan-22 19:13:19 - Prediction seconds 0.15003728866577148
+15-Jan-22 19:13:19 - Load Image seconds 0.009962081909179688
+15-Jan-22 19:13:19 - Prediction seconds 0.15000295639038086
+15-Jan-22 19:13:19 - Load Image seconds 0.0
+15-Jan-22 19:13:20 - Prediction seconds 0.16000008583068848
+15-Jan-22 19:13:20 - Load Image seconds 0.010000228881835938
+15-Jan-22 19:13:20 - Prediction seconds 0.18000125885009766
+15-Jan-22 19:13:20 - Load Image seconds 0.00999903678894043
+15-Jan-22 19:13:20 - Prediction seconds 0.1400012969970703
+15-Jan-22 19:13:20 - Load Image seconds 0.0
+15-Jan-22 19:13:20 - Prediction seconds 0.14000177383422852
+15-Jan-22 19:13:20 - Load Image seconds 0.0
+15-Jan-22 19:13:20 - Prediction seconds 0.15000081062316895
+15-Jan-22 19:13:20 - Load Image seconds 0.0
+15-Jan-22 19:13:20 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:13:20 - Load Image seconds 0.0
+15-Jan-22 19:13:21 - Prediction seconds 0.15001463890075684
+15-Jan-22 19:13:21 - Load Image seconds 0.0
+15-Jan-22 19:13:21 - Prediction seconds 0.14000177383422852
+15-Jan-22 19:13:21 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:13:21 - Prediction seconds 0.1800076961517334
+15-Jan-22 19:13:21 - 10.15.12.10 - - [15/Jan/2022 19:13:21] "[35m[1mPOST /detect_batch HTTP/1.1[0m" 500 -
+15-Jan-22 19:14:35 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:14:35 -  * Restarting with stat
+15-Jan-22 19:14:36 - Raccoon Detector Inference Engine
+15-Jan-22 19:14:36 -  * Debugger is active!
+15-Jan-22 19:14:36 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:14:37 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:14:37 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:14:42 - Load Image seconds 0.01000356674194336
+15-Jan-22 19:14:42 - Prediction seconds 0.28998422622680664
+15-Jan-22 19:14:42 - Load Image seconds 0.0
+15-Jan-22 19:14:42 - Prediction seconds 0.14000391960144043
+15-Jan-22 19:14:42 - Load Image seconds 0.009997367858886719
+15-Jan-22 19:14:42 - Prediction seconds 0.16000103950500488
+15-Jan-22 19:14:42 - Load Image seconds 0.0
+15-Jan-22 19:14:42 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:14:42 - Load Image seconds 0.010002613067626953
+15-Jan-22 19:14:42 - Prediction seconds 0.12999820709228516
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:43 - Prediction seconds 0.1399991512298584
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:43 - Prediction seconds 0.1399996280670166
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:43 - Prediction seconds 0.18000245094299316
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:43 - Prediction seconds 0.1300029754638672
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:43 - Prediction seconds 0.14005303382873535
+15-Jan-22 19:14:43 - Load Image seconds 0.00994873046875
+15-Jan-22 19:14:43 - Prediction seconds 0.13000178337097168
+15-Jan-22 19:14:43 - Load Image seconds 0.0
+15-Jan-22 19:14:44 - Prediction seconds 0.14000391960144043
+15-Jan-22 19:14:44 - Load Image seconds 0.009996175765991211
+15-Jan-22 19:14:44 - Prediction seconds 0.13000249862670898
+15-Jan-22 19:14:44 - Load Image seconds 0.0
+15-Jan-22 19:14:44 - Prediction seconds 0.14002132415771484
+15-Jan-22 19:14:44 - Load Image seconds 0.009978532791137695
+15-Jan-22 19:14:44 - Prediction seconds 0.18000555038452148
+15-Jan-22 19:14:44 - Load Image seconds 0.010000228881835938
+15-Jan-22 19:14:44 - Prediction seconds 0.13000011444091797
+15-Jan-22 19:14:44 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:14:44 - Prediction seconds 0.13007807731628418
+15-Jan-22 19:14:44 - 10.15.12.10 - - [15/Jan/2022 19:14:44] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:15:40 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:15:40 -  * Restarting with stat
+15-Jan-22 19:15:41 - Raccoon Detector Inference Engine
+15-Jan-22 19:15:42 -  * Debugger is active!
+15-Jan-22 19:15:42 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:15:42 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:15:42 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:15:47 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:15:47 -  * Restarting with stat
+15-Jan-22 19:15:48 - Raccoon Detector Inference Engine
+15-Jan-22 19:15:48 -  * Debugger is active!
+15-Jan-22 19:15:48 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:15:49 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:15:49 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:16:00 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:16:00 -  * Restarting with stat
+15-Jan-22 19:16:02 - Raccoon Detector Inference Engine
+15-Jan-22 19:16:02 -  * Debugger is active!
+15-Jan-22 19:16:02 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:16:03 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:16:03 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:16:13 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:16:14 -  * Restarting with stat
+15-Jan-22 19:16:15 - Raccoon Detector Inference Engine
+15-Jan-22 19:16:15 -  * Debugger is active!
+15-Jan-22 19:16:15 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:16:16 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:16:16 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:16:32 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.25998663902282715
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.1400156021118164
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.15000081062316895
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.140000581741333
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.1900019645690918
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.1399991512298584
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:33 - Prediction seconds 0.14000630378723145
+15-Jan-22 19:16:33 - Load Image seconds 0.0
+15-Jan-22 19:16:34 - Prediction seconds 0.1400012969970703
+15-Jan-22 19:16:34 - Load Image seconds 0.0
+15-Jan-22 19:16:34 - Prediction seconds 0.15000200271606445
+15-Jan-22 19:16:34 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:16:34 - Prediction seconds 0.1400003433227539
+15-Jan-22 19:16:34 - Load Image seconds 0.0
+15-Jan-22 19:16:34 - Prediction seconds 0.14000201225280762
+15-Jan-22 19:16:34 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:16:34 - Prediction seconds 0.17000317573547363
+15-Jan-22 19:16:34 - Load Image seconds 0.009997129440307617
+15-Jan-22 19:16:34 - Prediction seconds 0.15000104904174805
+15-Jan-22 19:16:34 - Load Image seconds 0.0
+15-Jan-22 19:16:35 - Prediction seconds 0.15000176429748535
+15-Jan-22 19:16:35 - Load Image seconds 0.0
+15-Jan-22 19:16:35 - Prediction seconds 0.14999914169311523
+15-Jan-22 19:16:35 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:16:35 - Prediction seconds 0.14005661010742188
+15-Jan-22 19:16:35 - Load Image seconds 0.0
+15-Jan-22 19:16:35 - Prediction seconds 0.15000414848327637
+15-Jan-22 19:16:35 - 10.15.12.10 - - [15/Jan/2022 19:16:35] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:18:14 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:18:14 -  * Restarting with stat
+15-Jan-22 19:18:15 - Raccoon Detector Inference Engine
+15-Jan-22 19:18:15 -  * Debugger is active!
+15-Jan-22 19:18:15 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:18:16 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:18:16 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:20:58 - 10.15.12.10 - - [15/Jan/2022 19:20:58] "GET /get/9a232168-7606-11ec-be12-000c29b400a7.jpg HTTP/1.1" 200 -
+15-Jan-22 19:21:33 - 10.15.12.10 - - [15/Jan/2022 19:21:33] "GET /get/8e441314-7609-11ec-b129-000c29b400a7.jpg HTTP/1.1" 200 -
+15-Jan-22 19:22:21 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:22:21 -  * Restarting with stat
+15-Jan-22 19:22:22 - Raccoon Detector Inference Engine
+15-Jan-22 19:22:22 -  * Debugger is active!
+15-Jan-22 19:22:22 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:22:23 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:22:23 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:22:31 - Load Image seconds 0.01007223129272461
+15-Jan-22 19:22:32 - Prediction seconds 0.30991625785827637
+15-Jan-22 19:22:32 - Load Image seconds 0.0
+15-Jan-22 19:22:32 - Prediction seconds 0.16000914573669434
+15-Jan-22 19:22:32 - Load Image seconds 0.0
+15-Jan-22 19:22:32 - Prediction seconds 0.15000200271606445
+15-Jan-22 19:22:32 - Load Image seconds 0.0
+15-Jan-22 19:22:32 - Prediction seconds 0.16000938415527344
+15-Jan-22 19:22:32 - Load Image seconds 0.009989261627197266
+15-Jan-22 19:22:32 - Prediction seconds 0.16000938415527344
+15-Jan-22 19:22:32 - Load Image seconds 0.0
+15-Jan-22 19:22:33 - Prediction seconds 0.16000938415527344
+15-Jan-22 19:22:33 - Load Image seconds 0.0
+15-Jan-22 19:22:33 - Prediction seconds 0.20000886917114258
+15-Jan-22 19:22:33 - Load Image seconds 0.0
+15-Jan-22 19:22:33 - Prediction seconds 0.1600055694580078
+15-Jan-22 19:22:33 - Load Image seconds 0.0
+15-Jan-22 19:22:33 - Prediction seconds 0.1600019931793213
+15-Jan-22 19:22:33 - Load Image seconds 0.0
+15-Jan-22 19:22:33 - Prediction seconds 0.16000103950500488
+15-Jan-22 19:22:33 - Load Image seconds 0.009998798370361328
+15-Jan-22 19:22:34 - Prediction seconds 0.1600024700164795
+15-Jan-22 19:22:34 - Load Image seconds 0.0
+15-Jan-22 19:22:34 - Prediction seconds 0.16001415252685547
+15-Jan-22 19:22:34 - Load Image seconds 0.009986162185668945
+15-Jan-22 19:22:34 - Prediction seconds 0.20000195503234863
+15-Jan-22 19:22:34 - Load Image seconds 0.0
+15-Jan-22 19:22:34 - Prediction seconds 0.15001296997070312
+15-Jan-22 19:22:34 - Load Image seconds 0.0
+15-Jan-22 19:22:34 - Prediction seconds 0.16000127792358398
+15-Jan-22 19:22:34 - Load Image seconds 0.0
+15-Jan-22 19:22:34 - Prediction seconds 0.16000151634216309
+15-Jan-22 19:22:34 - Load Image seconds 0.0
+15-Jan-22 19:22:35 - Prediction seconds 0.1600358486175537
+15-Jan-22 19:22:35 - 10.15.12.10 - - [15/Jan/2022 19:22:35] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:22:58 - 10.15.12.10 - - [15/Jan/2022 19:22:58] "GET /get/64933a66-760a-11ec-b8a8-000c29b400a7.jpg HTTP/1.1" 200 -
+15-Jan-22 19:23:55 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:23:55 -  * Restarting with stat
+15-Jan-22 19:23:57 - Raccoon Detector Inference Engine
+15-Jan-22 19:23:57 -  * Debugger is active!
+15-Jan-22 19:23:57 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:23:58 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:23:58 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:25:38 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:25:39 -  * Restarting with stat
+15-Jan-22 19:25:40 - Raccoon Detector Inference Engine
+15-Jan-22 19:25:40 -  * Debugger is active!
+15-Jan-22 19:25:40 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:25:41 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:25:41 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:26:39 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:26:40 -  * Restarting with stat
+15-Jan-22 19:26:41 - Raccoon Detector Inference Engine
+15-Jan-22 19:26:41 -  * Debugger is active!
+15-Jan-22 19:26:41 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:26:42 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:26:42 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:28:07 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:28:07 -  * Restarting with stat
+15-Jan-22 19:28:08 - Raccoon Detector Inference Engine
+15-Jan-22 19:28:08 -  * Debugger is active!
+15-Jan-22 19:28:08 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:28:09 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:28:09 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:28:27 - Load Image seconds 0.0
+15-Jan-22 19:28:27 - Prediction seconds 0.24992012977600098
+15-Jan-22 19:28:27 - Load Image seconds 0.00999903678894043
+15-Jan-22 19:28:27 - Prediction seconds 0.12000298500061035
+15-Jan-22 19:28:27 - Load Image seconds 0.0
+15-Jan-22 19:28:27 - Prediction seconds 0.14000201225280762
+15-Jan-22 19:28:27 - Load Image seconds 0.0
+15-Jan-22 19:28:27 - Prediction seconds 0.1400003433227539
+15-Jan-22 19:28:27 - Load Image seconds 0.0
+15-Jan-22 19:28:27 - Prediction seconds 0.19000029563903809
+15-Jan-22 19:28:27 - Load Image seconds 0.0
+15-Jan-22 19:28:28 - Prediction seconds 0.1300044059753418
+15-Jan-22 19:28:28 - Load Image seconds 0.0
+15-Jan-22 19:28:28 - Prediction seconds 0.15000033378601074
+15-Jan-22 19:28:28 - Load Image seconds 0.0
+15-Jan-22 19:28:28 - Prediction seconds 0.14000225067138672
+15-Jan-22 19:28:28 - Load Image seconds 0.0
+15-Jan-22 19:28:28 - Prediction seconds 0.14000177383422852
+15-Jan-22 19:28:28 - Load Image seconds 0.0
+15-Jan-22 19:28:28 - Prediction seconds 0.14000153541564941
+15-Jan-22 19:28:28 - Load Image seconds 0.009999513626098633
+15-Jan-22 19:28:28 - Prediction seconds 0.13000178337097168
+15-Jan-22 19:28:28 - Load Image seconds 0.00999760627746582
+15-Jan-22 19:28:29 - Prediction seconds 0.17000269889831543
+15-Jan-22 19:28:29 - Load Image seconds 0.00999903678894043
+15-Jan-22 19:28:29 - Prediction seconds 0.13000798225402832
+15-Jan-22 19:28:29 - Load Image seconds 0.0
+15-Jan-22 19:28:29 - Prediction seconds 0.14000272750854492
+15-Jan-22 19:28:29 - Load Image seconds 0.009997844696044922
+15-Jan-22 19:28:29 - Prediction seconds 0.14000225067138672
+15-Jan-22 19:28:29 - Load Image seconds 0.009997129440307617
+15-Jan-22 19:28:29 - Prediction seconds 0.1300044059753418
+15-Jan-22 19:28:29 - Load Image seconds 0.0
+15-Jan-22 19:28:29 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:28:29 - 10.15.12.10 - - [15/Jan/2022 19:28:29] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:28:45 - Load Image seconds 0.00999140739440918
+15-Jan-22 19:28:45 - Prediction seconds 0.22999072074890137
+15-Jan-22 19:28:45 - Load Image seconds 0.0
+15-Jan-22 19:28:45 - Prediction seconds 0.13000106811523438
+15-Jan-22 19:28:45 - Load Image seconds 0.0
+15-Jan-22 19:28:45 - Prediction seconds 0.14000988006591797
+15-Jan-22 19:28:45 - Load Image seconds 0.0
+15-Jan-22 19:28:45 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:28:45 - Load Image seconds 0.009998798370361328
+15-Jan-22 19:28:45 - Prediction seconds 0.1900007724761963
+15-Jan-22 19:28:46 - Load Image seconds 0.0
+15-Jan-22 19:28:46 - Prediction seconds 0.13000917434692383
+15-Jan-22 19:28:46 - Load Image seconds 0.0
+15-Jan-22 19:28:46 - Prediction seconds 0.1300187110900879
+15-Jan-22 19:28:46 - Load Image seconds 0.0
+15-Jan-22 19:28:46 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:28:46 - Load Image seconds 0.0
+15-Jan-22 19:28:46 - Prediction seconds 0.14000153541564941
+15-Jan-22 19:28:46 - Load Image seconds 0.0
+15-Jan-22 19:28:46 - Prediction seconds 0.14000248908996582
+15-Jan-22 19:28:46 - Load Image seconds 0.009997367858886719
+15-Jan-22 19:28:46 - Prediction seconds 0.18001031875610352
+15-Jan-22 19:28:46 - Load Image seconds 0.009997844696044922
+15-Jan-22 19:28:47 - Prediction seconds 0.13000249862670898
+15-Jan-22 19:28:47 - Load Image seconds 0.0
+15-Jan-22 19:28:47 - Prediction seconds 0.14000797271728516
+15-Jan-22 19:28:47 - Load Image seconds 0.009992122650146484
+15-Jan-22 19:28:47 - Prediction seconds 0.14000964164733887
+15-Jan-22 19:28:47 - Load Image seconds 0.0
+15-Jan-22 19:28:47 - Prediction seconds 0.14000415802001953
+15-Jan-22 19:28:47 - Load Image seconds 0.0
+15-Jan-22 19:28:47 - Prediction seconds 0.14002490043640137
+15-Jan-22 19:28:47 - Load Image seconds 0.0
+15-Jan-22 19:28:47 - Prediction seconds 0.15000081062316895
+15-Jan-22 19:28:47 - 10.15.12.10 - - [15/Jan/2022 19:28:47] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:29:46 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:29:46 -  * Restarting with stat
+15-Jan-22 19:29:47 - Raccoon Detector Inference Engine
+15-Jan-22 19:29:47 -  * Debugger is active!
+15-Jan-22 19:29:47 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:29:48 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:29:48 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:30:00 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:30:00 -  * Restarting with stat
+15-Jan-22 19:30:01 - Raccoon Detector Inference Engine
+15-Jan-22 19:30:02 -  * Debugger is active!
+15-Jan-22 19:30:02 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:30:02 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:30:02 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:30:07 - Load Image seconds 0.010071039199829102
+15-Jan-22 19:30:07 - Prediction seconds 0.2399153709411621
+15-Jan-22 19:30:07 - Load Image seconds 0.0
+15-Jan-22 19:30:08 - Prediction seconds 0.13000273704528809
+15-Jan-22 19:30:08 - Load Image seconds 0.009998321533203125
+15-Jan-22 19:30:08 - Prediction seconds 0.13000273704528809
+15-Jan-22 19:30:08 - Load Image seconds 0.009999990463256836
+15-Jan-22 19:30:08 - Prediction seconds 0.12003564834594727
+15-Jan-22 19:30:08 - Load Image seconds 0.009963035583496094
+15-Jan-22 19:30:08 - Prediction seconds 0.1900014877319336
+15-Jan-22 19:30:08 - Load Image seconds 0.0
+15-Jan-22 19:30:08 - Prediction seconds 0.14000320434570312
+15-Jan-22 19:30:08 - Load Image seconds 0.0
+15-Jan-22 19:30:08 - Prediction seconds 0.14001083374023438
+15-Jan-22 19:30:08 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.1400008201599121
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.14000368118286133
+15-Jan-22 19:30:09 - Load Image seconds 0.009996414184570312
+15-Jan-22 19:30:09 - Prediction seconds 0.13000249862670898
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.1400132179260254
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.1900010108947754
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.1400012969970703
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:09 - Prediction seconds 0.13000154495239258
+15-Jan-22 19:30:09 - Load Image seconds 0.0
+15-Jan-22 19:30:10 - Prediction seconds 0.14000511169433594
+15-Jan-22 19:30:10 - Load Image seconds 0.009994745254516602
+15-Jan-22 19:30:10 - Prediction seconds 0.13000178337097168
+15-Jan-22 19:30:10 - Load Image seconds 0.009999275207519531
+15-Jan-22 19:30:10 - Prediction seconds 0.14000654220581055
+15-Jan-22 19:30:10 - 10.15.12.10 - - [15/Jan/2022 19:30:10] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:33:41 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\app.py', reloading
+15-Jan-22 19:33:41 -  * Restarting with stat
+15-Jan-22 19:33:42 - Raccoon Detector Inference Engine
+15-Jan-22 19:33:42 -  * Debugger is active!
+15-Jan-22 19:33:42 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:33:43 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:33:43 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:34:19 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:34:19 -  * Restarting with stat
+15-Jan-22 19:34:21 - Raccoon Detector Inference Engine
+15-Jan-22 19:34:21 -  * Debugger is active!
+15-Jan-22 19:34:21 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:34:22 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:34:22 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:34:29 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:34:30 -  * Restarting with stat
+15-Jan-22 19:34:31 - Raccoon Detector Inference Engine
+15-Jan-22 19:34:31 -  * Debugger is active!
+15-Jan-22 19:34:31 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:34:32 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:34:32 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:35:17 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:35:17 -  * Restarting with stat
+15-Jan-22 19:35:18 - Raccoon Detector Inference Engine
+15-Jan-22 19:35:18 -  * Debugger is active!
+15-Jan-22 19:35:18 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:35:19 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:35:19 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:35:46 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:35:46 -  * Restarting with stat
+15-Jan-22 19:35:47 - Raccoon Detector Inference Engine
+15-Jan-22 19:35:47 -  * Debugger is active!
+15-Jan-22 19:35:47 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:35:48 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:35:48 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:35:58 -  * Detected change in 'C:\\nishant_work\\Raccon_Detection\\RaccoonDetection.py', reloading
+15-Jan-22 19:35:58 -  * Restarting with stat
+15-Jan-22 19:36:00 - Raccoon Detector Inference Engine
+15-Jan-22 19:36:00 -  * Debugger is active!
+15-Jan-22 19:36:00 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:36:01 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:36:01 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:36:31 - Load Image seconds 0.010008573532104492
+15-Jan-22 19:36:31 - Prediction seconds 0.2899782657623291
+15-Jan-22 19:36:31 - 10.15.12.10 - - [15/Jan/2022 19:36:31] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 19:36:39 - Load Image seconds 0.0
+15-Jan-22 19:36:40 - Prediction seconds 0.2399907112121582
+15-Jan-22 19:36:40 - Load Image seconds 0.009994029998779297
+15-Jan-22 19:36:40 - Prediction seconds 0.15000200271606445
+15-Jan-22 19:36:40 - Load Image seconds 0.0
+15-Jan-22 19:36:40 - Prediction seconds 0.1600024700164795
+15-Jan-22 19:36:40 - Load Image seconds 0.0
+15-Jan-22 19:36:40 - Prediction seconds 0.1900043487548828
+15-Jan-22 19:36:40 - Load Image seconds 0.009996414184570312
+15-Jan-22 19:36:40 - Prediction seconds 0.15000200271606445
+15-Jan-22 19:36:40 - Load Image seconds 0.0
+15-Jan-22 19:36:40 - Prediction seconds 0.15000295639038086
+15-Jan-22 19:36:40 - Load Image seconds 0.0
+15-Jan-22 19:36:41 - Prediction seconds 0.15004777908325195
+15-Jan-22 19:36:41 - Load Image seconds 0.009952545166015625
+15-Jan-22 19:36:41 - Prediction seconds 0.15000104904174805
+15-Jan-22 19:36:41 - Load Image seconds 0.0
+15-Jan-22 19:36:41 - Prediction seconds 0.15000629425048828
+15-Jan-22 19:36:41 - Load Image seconds 0.0
+15-Jan-22 19:36:41 - Prediction seconds 0.20003008842468262
+15-Jan-22 19:36:41 - Load Image seconds 0.009970426559448242
+15-Jan-22 19:36:41 - Prediction seconds 0.15000224113464355
+15-Jan-22 19:36:41 - Load Image seconds 0.0
+15-Jan-22 19:36:41 - Prediction seconds 0.1600031852722168
+15-Jan-22 19:36:41 - Load Image seconds 0.0
+15-Jan-22 19:36:42 - Prediction seconds 0.16001319885253906
+15-Jan-22 19:36:42 - Load Image seconds 0.0
+15-Jan-22 19:36:42 - Prediction seconds 0.1600029468536377
+15-Jan-22 19:36:42 - Load Image seconds 0.0
+15-Jan-22 19:36:42 - Prediction seconds 0.15999889373779297
+15-Jan-22 19:36:42 - Load Image seconds 0.0
+15-Jan-22 19:36:42 - Prediction seconds 0.21000099182128906
+15-Jan-22 19:36:42 - Load Image seconds 0.0
+15-Jan-22 19:36:42 - Prediction seconds 0.1600043773651123
+15-Jan-22 19:36:42 - 10.15.12.10 - - [15/Jan/2022 19:36:42] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:38:20 - Load Image seconds 0.0
+15-Jan-22 19:38:21 - Prediction seconds 0.28998732566833496
+15-Jan-22 19:38:21 - Load Image seconds 0.0
+15-Jan-22 19:38:21 - Prediction seconds 0.15000367164611816
+15-Jan-22 19:38:21 - Load Image seconds 0.0
+15-Jan-22 19:38:21 - Prediction seconds 0.15000224113464355
+15-Jan-22 19:38:21 - Load Image seconds 0.0
+15-Jan-22 19:38:21 - Prediction seconds 0.15000295639038086
+15-Jan-22 19:38:21 - Load Image seconds 0.00999760627746582
+15-Jan-22 19:38:21 - Prediction seconds 0.1500077247619629
+15-Jan-22 19:38:21 - Load Image seconds 0.0
+15-Jan-22 19:38:21 - Prediction seconds 0.15000319480895996
+15-Jan-22 19:38:21 - Load Image seconds 0.0
+15-Jan-22 19:38:22 - Prediction seconds 0.20000028610229492
+15-Jan-22 19:38:22 - Load Image seconds 0.0
+15-Jan-22 19:38:22 - Prediction seconds 0.15999889373779297
+15-Jan-22 19:38:22 - Load Image seconds 0.0
+15-Jan-22 19:38:22 - Prediction seconds 0.16000056266784668
+15-Jan-22 19:38:22 - Load Image seconds 0.0
+15-Jan-22 19:38:22 - Prediction seconds 0.16000151634216309
+15-Jan-22 19:38:22 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:38:22 - Prediction seconds 0.1600031852722168
+15-Jan-22 19:38:22 - Load Image seconds 0.0
+15-Jan-22 19:38:22 - Prediction seconds 0.1600022315979004
+15-Jan-22 19:38:22 - Load Image seconds 0.0
+15-Jan-22 19:38:23 - Prediction seconds 0.2200005054473877
+15-Jan-22 19:38:23 - Load Image seconds 0.0
+15-Jan-22 19:38:23 - Prediction seconds 0.16000103950500488
+15-Jan-22 19:38:23 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:38:23 - Prediction seconds 0.15000247955322266
+15-Jan-22 19:38:23 - Load Image seconds 0.0
+15-Jan-22 19:38:23 - Prediction seconds 0.1699998378753662
+15-Jan-22 19:38:23 - Load Image seconds 0.0
+15-Jan-22 19:38:23 - Prediction seconds 0.16000032424926758
+15-Jan-22 19:38:23 - 10.15.12.10 - - [15/Jan/2022 19:38:23] "POST /detect_batch HTTP/1.1" 200 -
+15-Jan-22 19:45:53 - Raccoon Detector Inference Engine
+15-Jan-22 19:45:53 -  * Restarting with stat
+15-Jan-22 19:45:54 - Raccoon Detector Inference Engine
+15-Jan-22 19:45:54 -  * Debugger is active!
+15-Jan-22 19:45:54 -  * Debugger PIN: 967-912-002
+15-Jan-22 19:45:55 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+15-Jan-22 19:45:55 -  * Running on http://10.15.30.201:5000/ (Press CTRL+C to quit)
+15-Jan-22 19:45:59 - 10.15.12.10 - - [15/Jan/2022 19:45:59] "[31m[1mPOST /detect_batch HTTP/1.1[0m" 400 -
+15-Jan-22 19:46:06 - Load Image seconds 0.009998559951782227
+15-Jan-22 19:46:06 - Prediction seconds 0.2499866485595703
+15-Jan-22 19:46:06 - 10.15.12.10 - - [15/Jan/2022 19:46:06] "POST /detect HTTP/1.1" 200 -
+15-Jan-22 19:46:33 - Load Image seconds 0.009996891021728516
+15-Jan-22 19:46:33 - Prediction seconds 0.2699851989746094
+15-Jan-22 19:46:33 - Load Image seconds 0.0
+15-Jan-22 19:46:34 - Prediction seconds 0.14000558853149414
+15-Jan-22 19:46:34 - Load Image seconds 0.009994745254516602
+15-Jan-22 19:46:34 - Prediction seconds 0.13001060485839844
+15-Jan-22 19:46:34 - Load Image seconds 0.0
+15-Jan-22 19:46:34 - Prediction seconds 0.13000154495239258
+15-Jan-22 19:46:34 - Load Image seconds 0.009997844696044922
+15-Jan-22 19:46:34 - Prediction seconds 0.13000226020812988
+15-Jan-22 19:46:34 - Load Image seconds 0.0
+15-Jan-22 19:46:34 - Prediction seconds 0.13000106811523438
+15-Jan-22 19:46:34 - Load Image seconds 0.0
+15-Jan-22 19:46:34 - Prediction seconds 0.18000078201293945
+15-Jan-22 19:46:34 - Load Image seconds 0.0
+15-Jan-22 19:46:34 - Prediction seconds 0.1400012969970703
+15-Jan-22 19:46:34 - Load Image seconds 0.00999903678894043
+15-Jan-22 19:46:35 - Prediction seconds 0.13000273704528809
+15-Jan-22 19:46:35 - Load Image seconds 0.00999760627746582
+15-Jan-22 19:46:35 - Prediction seconds 0.13000226020812988
+15-Jan-22 19:46:35 - Load Image seconds 0.009998083114624023
+15-Jan-22 19:46:35 - Prediction seconds 0.13000202178955078
+15-Jan-22 19:46:35 - Load Image seconds 0.0
+15-Jan-22 19:46:35 - Prediction seconds 0.14000177383422852
+15-Jan-22 19:46:35 - Load Image seconds 0.0
+15-Jan-22 19:46:35 - Prediction seconds 0.13000202178955078
+15-Jan-22 19:46:35 - Load Image seconds 0.0
+15-Jan-22 19:46:35 - Prediction seconds 0.18000125885009766
+15-Jan-22 19:46:35 - Load Image seconds 0.0
+15-Jan-22 19:46:36 - Prediction seconds 0.15000057220458984
+15-Jan-22 19:46:36 - Load Image seconds 0.0
+15-Jan-22 19:46:36 - Prediction seconds 0.1399998664855957
+15-Jan-22 19:46:36 - Load Image seconds 0.009998798370361328
+15-Jan-22 19:46:36 - Prediction seconds 0.13000249862670898
+15-Jan-22 19:46:36 - 10.15.12.10 - - [15/Jan/2022 19:46:36] "POST /detect_batch HTTP/1.1" 200 -
