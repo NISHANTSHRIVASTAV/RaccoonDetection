@@ -38,7 +38,7 @@ $ python app.py
 ```
 
 ### Evaluation
-To e valuate the Raccoon Detector trained model
+To evaluate the Raccoon Detector trained model
 ```
 $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd-Epoch-165-Loss-1.3442652225494385.pth --dataset_type=voc --dataset=dataset\VOC2007\ --label_file=labels\labels.txt --use_cuda=False --eval_dir=eval 
 ```
