@@ -32,13 +32,13 @@ $ python vision\datasets\generate_vocdata.py labels.txt
 $ python train_ssd.py --dataset-type=voc --data=dataset\VOC2007\ --model-dir=models\custom_trained_model\ --batch-size=36 --epochs=150 --workers=0 --use-cuda=True --pretrained-ssd=models\pretrained_model\mobilenet-v1-ssd-mp-0_675.pth --gpu-devices 0 1 2 
 ```
 ### Inference/Prediction
-To run the Raccon Detector Inference Flask API Engine which saves the response with bounding boxes in \results directory
+To run the Raccoon Detector Inference Flask API Engine which saves the response with bounding boxes in \results directory
 ```
 $ python app.py 
 ```
 
 ### Evaluation
-To run the Raccon Detector Inference Engine
+To run the Raccoon Detector Inference Engine
 ```
 $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd-Epoch-165-Loss-1.3442652225494385.pth --dataset_type=voc --dataset=dataset\VOC2007\ --label_file=labels\labels.txt --use_cuda=False --eval_dir=eval 
 ```
@@ -463,5 +463,6 @@ $ python eval_ssd.py --net=mb1-ssd --trained_model=models\custom_trained\mb1-ssd
 
 #### Response
 
+![](images/output.jpg)
 ![](results/ae49f07e-7611-11ec-b929-000c29b400a7.jpg)
 
