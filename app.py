@@ -14,60 +14,65 @@ def ping():
 
 @app.route('/detect',methods = ['POST'])
 def detect():
-
-    if 'nmsThreshold' in request.headers:
-        nmsThreshold = request.headers.get('nmsThreshold')
-    else:
-        nmsThreshold = 0.5
-        
-    if 'netType' in request.headers:
-        netType = request.headers.get('netType')
-    else:
-        netType = 'mb1-ssd'
-
-    if 'deviceType' in request.headers:
-        deviceType = request.headers.get('deviceType')
-    else:
-        deviceType = 'cpu'
-
-    detector.image = request.files['file'].read()
-    detector.nms_threshold = float(nmsThreshold)
-    detector.net_type = str(netType)
-    detector.device = str(deviceType)
-    response = detector.detect_objects()
-    return jsonify(response)
     
-@app.route('/detect_batch',methods = ['POST'])
-def detect_batch():
+    try:
+        if 'nmsThreshold' in request.headers:
+            nmsThreshold = request.headers.get('nmsThreshold')
+        else:
+            nmsThreshold = 0.5
+            
+        if 'netType' in request.headers:
+            netType = request.headers.get('netType')
+        else:
+            netType = 'mb1-ssd'
 
-    if 'nmsThreshold' in request.headers:
-        nmsThreshold = request.headers.get('nmsThreshold')
-    else:
-        nmsThreshold = 0.5
-    
-    if 'netType' in request.headers:
-        netType = request.headers.get('netType')
-    else:
-        netType = 'mb1-ssd'
+        if 'deviceType' in request.headers:
+            deviceType = request.headers.get('deviceType')
+        else:
+            deviceType = 'cpu'
 
-    if 'deviceType' in request.headers:
-        deviceType = request.headers.get('deviceType')
-    else:
-        deviceType = 'cpu'
-
-    files = request.files.getlist("files")
-    batch_result = []
-    for file in files:
-        detector.image = file.read()
+        detector.image = request.files['file'].read()
         detector.nms_threshold = float(nmsThreshold)
         detector.net_type = str(netType)
         detector.device = str(deviceType)
         response = detector.detect_objects()
-        response['input_image'] = str(file.filename)
-        batch_result.append(response)
+        return jsonify(response)
+    except Exception as e:
+        print("Caught an exception in /detect endpoint", e)
     
-    return jsonify({'status':'ok', 'predictions':batch_result, 'error':False, 'batch_size': len(batch_result)})    
+@app.route('/detect_batch',methods = ['POST'])
+def detect_batch():
 
+    try:
+        if 'nmsThreshold' in request.headers:
+            nmsThreshold = request.headers.get('nmsThreshold')
+        else:
+            nmsThreshold = 0.5
+        
+        if 'netType' in request.headers:
+            netType = request.headers.get('netType')
+        else:
+            netType = 'mb1-ssd'
+
+        if 'deviceType' in request.headers:
+            deviceType = request.headers.get('deviceType')
+        else:
+            deviceType = 'cpu'
+
+        files = request.files.getlist("files")
+        batch_result = []
+        for file in files:
+            detector.image = file.read()
+            detector.nms_threshold = float(nmsThreshold)
+            detector.net_type = str(netType)
+            detector.device = str(deviceType)
+            response = detector.detect_objects()
+            response['input_image'] = str(file.filename)
+            batch_result.append(response)
+        
+        return jsonify({'status':'ok', 'predictions':batch_result, 'error':False, 'batch_size': len(batch_result)})
+    except Exception as e:
+        print("Caught an exception in /detect_batch endpoint", e)
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -76,12 +81,15 @@ def page_not_found(e):
 @app.route('/get/<filename>', methods=["GET"])
 def getfile(filename):
 
-    file_path = RACCOON_DETECTION_IMAGES + filename
+    try:
+        file_path = RACCOON_DETECTION_IMAGES + filename
 
-    if os.path.exists(file_path):
-        return make_response(send_file(file_path, attachment_filename = filename, add_etags = False, cache_timeout = 0))
-    else:
-        return "404"
+        if os.path.exists(file_path):
+            return make_response(send_file(file_path, attachment_filename = filename, add_etags = False, cache_timeout = 0))
+        else:
+            return "404"
+    except Exception as e:
+        print("Caught an exception in /get endpoint", e)
 
 if __name__ == '__main__':
 
@@ -91,4 +99,4 @@ if __name__ == '__main__':
         print("Starting App..")
         app.run(host = APP_HOST, port = APP_PORT, debug = True, use_reloader = True)
     except Exception as e:
-        print("Caught an Exception: ", e)
+        print("Caught an Exception in main function: ", e)
